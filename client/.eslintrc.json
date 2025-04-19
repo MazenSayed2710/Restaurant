@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended"
+  ],
+  "plugins": ["react", "react-hooks"],
+  "rules": {
+    "semi": ["error", "always"],
+    "quotes": ["error", "double"],
+    "no-console": "warn",
+    "react/prop-types": "off", // Optional: Disable prop type warnings if using TypeScript
+    "react/jsx-props-no-spreading": "warn",
+    "react/jsx-pascal-case": "warn",
+    "react/no-unescaped-entities": "off", // For compatibility with Vite's dev server
+    "react/jsx-key": "warn",
+    "react/jsx-closing-tag-location": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
+  },
+  "parserOptions": {
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  }
+}

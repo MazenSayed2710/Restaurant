@@ -1,0 +1,130 @@
+{
+  "hash": "5145d48f",
+  "configHash": "a238fef3",
+  "lockfileHash": "e3b0c442",
+  "browserHash": "8ba239b0",
+  "optimized": {
+    "@reduxjs/toolkit": {
+      "src": "../../node_modules/@reduxjs/toolkit/dist/redux-toolkit.modern.mjs",
+      "file": "@reduxjs_toolkit.js",
+      "fileHash": "27ce8517",
+      "needsInterop": false
+    },
+    "@stripe/react-stripe-js": {
+      "src": "../../node_modules/@stripe/react-stripe-js/dist/react-stripe.esm.js",
+      "file": "@stripe_react-stripe-js.js",
+      "fileHash": "36962f5c",
+      "needsInterop": false
+    },
+    "@stripe/stripe-js": {
+      "src": "../../node_modules/@stripe/stripe-js/dist/stripe.mjs",
+      "file": "@stripe_stripe-js.js",
+      "fileHash": "be24c152",
+      "needsInterop": false
+    },
+    "@supabase/supabase-js": {
+      "src": "../../node_modules/@supabase/supabase-js/dist/module/index.js",
+      "file": "@supabase_supabase-js.js",
+      "fileHash": "8197e183",
+      "needsInterop": false
+    },
+    "@tanstack/react-query": {
+      "src": "../../node_modules/@tanstack/react-query/build/modern/index.js",
+      "file": "@tanstack_react-query.js",
+      "fileHash": "430b64fa",
+      "needsInterop": false
+    },
+    "@tanstack/react-query-devtools": {
+      "src": "../../node_modules/@tanstack/react-query-devtools/build/modern/index.js",
+      "file": "@tanstack_react-query-devtools.js",
+      "fileHash": "fc5a0c3b",
+      "needsInterop": false
+    },
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "f010c1c0",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "c7c281d1",
+      "needsInterop": true
+    },
+    "react-hook-form": {
+      "src": "../../node_modules/react-hook-form/dist/index.esm.mjs",
+      "file": "react-hook-form.js",
+      "fileHash": "23505e1f",
+      "needsInterop": false
+    },
+    "react-hot-toast": {
+      "src": "../../node_modules/react-hot-toast/dist/index.mjs",
+      "file": "react-hot-toast.js",
+      "fileHash": "6740f4eb",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "0a0687db",
+      "needsInterop": false
+    },
+    "react-icons/fa6": {
+      "src": "../../node_modules/react-icons/fa6/index.mjs",
+      "file": "react-icons_fa6.js",
+      "fileHash": "3f514c0e",
+      "needsInterop": false
+    },
+    "react-icons/hi2": {
+      "src": "../../node_modules/react-icons/hi2/index.mjs",
+      "file": "react-icons_hi2.js",
+      "fileHash": "b77ae552",
+      "needsInterop": false
+    },
+    "react-redux": {
+      "src": "../../node_modules/react-redux/dist/react-redux.mjs",
+      "file": "react-redux.js",
+      "fileHash": "438d4cfb",
+      "needsInterop": false
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "df4032e6",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "browser-2YKBWFPX": {
+      "file": "browser-2YKBWFPX.js"
+    },
+    "BCQ5SSOV-HDPL4UY7": {
+      "file": "BCQ5SSOV-HDPL4UY7.js"
+    },
+    "chunk-HCYGOPP4": {
+      "file": "chunk-HCYGOPP4.js"
+    },
+    "browser-C5PIYSMO": {
+      "file": "browser-C5PIYSMO.js"
+    },
+    "chunk-XCDHS5NV": {
+      "file": "chunk-XCDHS5NV.js"
+    },
+    "chunk-2VY763BK": {
+      "file": "chunk-2VY763BK.js"
+    },
+    "chunk-B2ALWWMD": {
+      "file": "chunk-B2ALWWMD.js"
+    },
+    "chunk-CAKFYEZR": {
+      "file": "chunk-CAKFYEZR.js"
+    },
+    "chunk-NNCLXYIK": {
+      "file": "chunk-NNCLXYIK.js"
+    },
+    "chunk-3SPBDNLE": {
+      "file": "chunk-3SPBDNLE.js"
+    }
+  }
+}
