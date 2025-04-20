@@ -13,7 +13,7 @@ function ItemSection() {
   });
   if (error) return <Error />;
   if (isLoading) return <Spinner />;
-  console.log(data);
+
   return (
     <div className="custom-grid-2 ">
       {data.map((item) => (

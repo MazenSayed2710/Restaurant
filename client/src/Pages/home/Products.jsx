@@ -9,7 +9,6 @@ function Products() {
     queryKey: ["slider menu"],
     queryFn: getItems,
   });
-  console.log(data);
   const fiteredData = filterProducts(data);
   if (isLoading) return <Spinner />;
   return (

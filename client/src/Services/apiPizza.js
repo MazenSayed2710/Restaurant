@@ -47,3 +47,14 @@ async function getMenus() {
   return menus;
 }
 export { getSection, getItemById, getItems, getMenus };
+
+async function getOffers() {
+  let { data, error } = await supabase.from("offers").select("*");
+  if (error) {
+    console.error(error.message);
+    throw new Error("There are something wrong in fetching data");
+  }
+  return data;
+}
+
+export default getOffers;
