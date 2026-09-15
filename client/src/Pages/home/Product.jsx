@@ -10,7 +10,6 @@ function Product(data) {
       style={{ transitionDuration: "0.5s" }}
     >
       <img
-        loading="lazy"
         src={image}
         width={500}
         height={500}

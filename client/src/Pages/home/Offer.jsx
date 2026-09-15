@@ -46,7 +46,7 @@ function Offer() {
         </div>
       </div>
       <div>
-        <img src={image} loading="lazy" width={500} height={500} />
+        <img src={image} width={500} height={500} />
       </div>
       {offers.length > 1 && (
         <>

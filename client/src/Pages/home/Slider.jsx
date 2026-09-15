@@ -41,7 +41,6 @@ function Slider() {
           src={data[imageId]?.image}
           alt=""
           className=" w-full h-full object-cover"
-          loading="lazy"
         />
       </div>
     </div>
